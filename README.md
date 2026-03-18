@@ -1,0 +1,98 @@
+# Raffaele Conti
+
+> From forklifts and live TV rigs to production-grade data pipelines.
+> Autodidact. No CS degree. Just results.
+
+---
+
+## $ whoami
+
+Builder, Data Engineer, Troubleshooter.
+I learned programming on a forklift with a lighting console on my lap.
+Ran live productions for German national TV. Now I build pipelines
+with the same "show must go on" precision.
+
+---
+
+## Philosophy
+
+I spent years moving pallets, running live TV productions and managing
+high-stakes operations where failure was not an option.
+
+When I look at a logistics database, I don't see rows and columns.
+I see the pallet I moved, the ramp that was blocked, the route that
+cost time and money. That operational context makes me write
+smarter algorithms.
+
+30 unique cloners in 14 days after launch. Deep engagement from
+LinkedIn and AI-assisted environments auditing the logic.
+The code speaks for itself.
+
+I also believe communication is the one skill that holds everything
+together — in teams, in code, and in human-AI interaction.
+A system is only as good as the intent behind it.
+
+*Conditio sine qua non.*
+
+---
+
+## Active Projects
+
+**[hiring-gap-analysis](https://github.com/ContinuumHQ/hiring-gap-analysis)**
+`Python` `REST API` `scikit-learn` `Docker` `Eurostat` `Bundesagentur API`
+End-to-end pipeline pulling 1M+ IT job postings across Germany and 7 EU countries.
+ML forecasting model projecting the IT skills gap to 2029.
+20+ unique clones in 24h after launch.
+
+**[portfolio](https://github.com/ContinuumHQ/portfolio)**
+`Python` `pandas` `Docker` `SQLite` `MongoDB` `pytest`
+3 production-ready projects: Predictive Maintenance, Network Monitor, Sales Dashboard.
+Tests, docs, Docker — the full stack.
+
+---
+
+## Certifications
+
+**Codecademy — 2025**
+```
+Data Scientist: Machine Learning    ████████████ Nov 2025
+Data Scientist: Analytics           ████████████ Nov 2025
+Data Engineer Career Path           ████████████ Nov 2025
+Learn MongoDB                       ████████████ Nov 2025
+Learn Python 3                      ████████████ Sep 2025
+Learn C++ Introduction              ████████████ Sep 2025
+```
+
+**Cisco Networking Academy — 2025**
+```
+Networking Devices & Basic Config   ████████████ Sep 2025
+Endpoint Security                   ████████████ Sep 2025
+Computer Hardware Basics            ████████████ Sep 2025
+Introduction to Cybersecurity       ████████████ Sep 2025
+Networking Basics                   ████████████ Aug 2025
+```
+
+**Languages**
+```
+German    ████████████████████  Native
+English   ████████████░░░░░░░░  B1 — actively improving
+```
+
+---
+
+## Stack
+```
+Python · pandas · scikit-learn · Docker · REST APIs
+SQL · MongoDB · Bash · Git · Linux (Arch, btw)
+```
+
+---
+
+## Open to
+
+Data Engineer and Python Developer roles globally.
+Relocation ready. Remote preferred. Open to hybrid in EU.
+
+---
+
+*"Systems on fire don't scare me. I fix them."*
