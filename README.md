@@ -5,7 +5,7 @@
 
 ---
 
-## $ whoami
+## Who am I
 
 Builder, Data Engineer, Troubleshooter.
 I learned programming on a forklift with a lighting console on my lap.
