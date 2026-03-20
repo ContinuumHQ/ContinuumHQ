@@ -38,10 +38,13 @@ A system is only as good as the intent behind it.
 `Python` `REST API` `scikit-learn` `Docker` `Eurostat` `Bundesagentur API`
 End-to-end pipeline pulling 1M+ IT job postings across Germany and 7 EU countries.
 ML forecasting model projecting the IT skills gap to 2029.
+
 **[scraper-base-kit](https://github.com/ContinuumHQ/scraper-base-kit)**
 Modular framework for resilient data ingestion with shadow-proxy rotation.
+
 **[market-intelligence-connector](https://github.com/ContinuumHQ/market-intelligence-connector)**
 Transforming raw scraping data into BI-ready JSON/CSV formats.
+
 **[agentic-recruiting-workflow](https://github.com/ContinuumHQ/agentic-recruiting-workflow)**
 LangGraph-powered workflow for data-driven recruiting and salary validation.
 
