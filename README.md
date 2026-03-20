@@ -24,10 +24,6 @@ I see the pallet I moved, the ramp that was blocked, the route that
 cost time and money. That operational context makes me write
 smarter algorithms.
 
-30 unique cloners in 14 days after launch. Deep engagement from
-LinkedIn and AI-assisted environments auditing the logic.
-The code speaks for itself.
-
 I also believe communication is the one skill that holds everything
 together — in teams, in code, and in human-AI interaction.
 A system is only as good as the intent behind it.
@@ -42,12 +38,12 @@ A system is only as good as the intent behind it.
 `Python` `REST API` `scikit-learn` `Docker` `Eurostat` `Bundesagentur API`
 End-to-end pipeline pulling 1M+ IT job postings across Germany and 7 EU countries.
 ML forecasting model projecting the IT skills gap to 2029.
-20+ unique clones in 24h after launch.
-
-**[portfolio](https://github.com/ContinuumHQ/portfolio)**
-`Python` `pandas` `Docker` `SQLite` `MongoDB` `pytest`
-3 production-ready projects: Predictive Maintenance, Network Monitor, Sales Dashboard.
-Tests, docs, Docker — the full stack.
+**[scraper-base-kit](https://github.com/ContinuumHQ/scraper-base-kit)**
+Modular framework for resilient data ingestion with shadow-proxy rotation.
+**[market-intelligence-connector](https://github.com/ContinuumHQ/market-intelligence-connector)**
+Transforming raw scraping data into BI-ready JSON/CSV formats.
+**[agentic-recruiting-workflow](https://github.com/ContinuumHQ/agentic-recruiting-workflow)**
+LangGraph-powered workflow for data-driven recruiting and salary validation.
 
 ---
 
