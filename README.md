@@ -60,6 +60,6 @@ Machines reflect us—through our prompts, our expectations, and our language. H
 
 ## 🟥 > CONNECT
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-STAY_CONNECTED-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)]([https://www.linkedin.com/in/raffaele-conti/](https://www.linkedin.com/in/raffaele-conti/))
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-STAY_CONNECTED-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)]([https://www.linkedin.com/in/raffaele-conti/](www.linkedin.com/in/raffaeleconti3187))
 [![Patreon](https://img.shields.io/badge/PATREON-STRATEGY_ROOM-black?style=for-the-badge&logo=patreon&logoColor=red&labelColor=black&color=red)](https://www.patreon.com/c/ContinuumHQ)
 [![Mastodon](https://img.shields.io/badge/MASTODON-JOIN_THE_RESISTANCE-black?style=for-the-badge&logo=mastodon&logoColor=red&labelColor=black&color=red)](https://mastodon.social/@ContinuumHQ)
