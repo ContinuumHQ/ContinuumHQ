@@ -50,6 +50,11 @@ Machines reflect us—through our prompts, our expectations, and our language. H
 * **BEOWULF-CLUSTER** in build
 ---
 
+## 🟥 > PORTFOLIO
+
+[![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github&logoColor=red&labelColor=black&color=red)](https://github.com/ContinuumHQ/portfolio)
+---
+
 ## 🟥 > CONNECT
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-STAY_CONNECTED-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)](https://www.linkedin.com/in/raffaeleconti3187)
 [![Patreon](https://img.shields.io/badge/PATREON-STRATEGY_ROOM-black?style=for-the-badge&logo=patreon&logoColor=red&labelColor=black&color=red)](https://www.patreon.com/c/ContinuumHQ)
