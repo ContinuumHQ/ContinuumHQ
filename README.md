@@ -24,12 +24,9 @@
 
 ## 🟥 > PHILOSOPHY: Conditio Sine Qua Non
 
-In a world of interfaces, systems, and scripts, the one thing that holds everything together is often lost: **human communication.**
-
-While my daily life revolves around code, logic, and processes, I’ve realized that without genuine communication—understanding the relational level, subtext, and impact—nothing works in the long run. Not in teams, not in projects, and certainly not when interacting with agents.
-
 **Communication is the foundation, not a side note.**
-Machines reflect us—through our prompts, our expectations, and our language. How we communicate today shapes the systems of tomorrow. Whether in code or in human interaction, we are responsible for what we transmit.
+Machines reflect us—through our prompts, our expectations and our language.
+How we communicate today shapes the systems of tomorrow.
 
 ---
 
