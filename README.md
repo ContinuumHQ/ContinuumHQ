@@ -56,7 +56,7 @@ How we communicate today shapes the systems of tomorrow.
 ## 🟥 > COFFEE
 
 [![LemonSqueezy](https://img.shields.io/badge/Lemon-Squeezy-black?style=for-the-badge&logo=lemon-squeezy&logoColor=red&labelColor=black&color=red)](https://continuumhq.lemonsqueezy.com/checkout/buy/3aa6dc12-4750-4eee-b866-891ccfd06bbd)
-[![BuyMeACoffee](https://img.shields.io/badge/Buy-Me-A-Coffee-black?style=for-the-badge&logo=buy-me-a-coffee&logoColor=red&labelColor=black&color=red)](https://buymeacoffee.com/dev_against_the_machine)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy-Me-A-Coffee-black?style=for-the-badge&logo=coffee&logoColor=red&labelColor=black&color=red)](https://buymeacoffee.com/dev_against_the_machine)
 [![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-black?style=for-the-badge&logo=github-sponsor&logoColor=red&labelColor=black&color=red)](https://github.com/sponsors/ContinuumHQ?preview=true)
 
 ---
