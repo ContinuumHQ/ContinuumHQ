@@ -47,12 +47,24 @@ How we communicate today shapes the systems of tomorrow.
 * **BEOWULF-CLUSTER** in build
 ---
 
-## 🟥 > PORTFOLIO
+## 🟥 > BUILD
 
 [![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github&logoColor=red&labelColor=black&color=red)](https://github.com/ContinuumHQ/portfolio)
+[![Homepage](https://img.shields.io/badge/Homepage-black?style=for-the-badge&logo=homepageColor=red&labelColor=black&color=red)](https://continuumhq.com)
+---
+
+## 🟥 > COFFEE
+
+[![LemonSqueezy](https://img.shields.io/badge/Lemon-Squeezy-black?style=for-the-badge&logo=lemon-squeezy&logoColor=red&labelColor=black&color=red)](https://continuumhq.lemonsqueezy.com/checkout/buy/3aa6dc12-4750-4eee-b866-891ccfd06bbd)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy-Me-A-Coffee-black?style=for-the-badge&logo=buy-me-a-coffee&logoColor=red&labelColor=black&color=red)](https://buymeacoffee.com/dev_against_the_machine)
+[![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-black?style=for-the-badge&logo=github-sponsor&logoColor=red&labelColor=black&color=red)](https://github.com/sponsors/ContinuumHQ?preview=true)
+
 ---
 
 ## 🟥 > CONNECT
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-STAY_CONNECTED-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)](https://www.linkedin.com/in/raffaeleconti3187)
-[![Patreon](https://img.shields.io/badge/PATREON-STRATEGY_ROOM-black?style=for-the-badge&logo=patreon&logoColor=red&labelColor=black&color=red)](https://www.patreon.com/c/ContinuumHQ)
-[![Mastodon](https://img.shields.io/badge/MASTODON-JOIN_THE_RESISTANCE-black?style=for-the-badge&logo=mastodon&logoColor=red&labelColor=black&color=red)](https://mastodon.social/@ContinuumHQ)
+[![Mail](https://img.shields.io/badge/Proton-black?style=for-the-badge&logo=proton&logoColor=red&labelColor=black&color=red)](mailto:continuum.hq@proton.me)
+[![GritLab](https://img.shields.io/badge/Discord-black?style=for-the-badge&logo=discord&logoColor=red&labelColor=black&color=red)](https://discord.gg/f6nTNGQn4S)
+[![Telegram](https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=telegram&logoColor=red&labelColor=black&color=red)](http://t.me/ContinuumHQ)
+[![Patreon](https://img.shields.io/badge/PATREON-black?style=for-the-badge&logo=patreon&logoColor=red&labelColor=black&color=red)](https://www.patreon.com/c/ContinuumHQ)
+[![Mastodon](https://img.shields.io/badge/MASTODON-black?style=for-the-badge&logo=mastodon&logoColor=red&labelColor=black&color=red)](https://mastodon.social/@ContinuumHQ)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)](https://www.linkedin.com/in/raffaeleconti3187)
