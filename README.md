@@ -7,7 +7,6 @@
 </a>
 
 </div>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0d0000,100:000000&height=900&width=1500&text=&animation=fadeIn" width="100%25"/>
 
 ---
 
