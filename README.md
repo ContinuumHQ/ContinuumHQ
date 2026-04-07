@@ -65,8 +65,6 @@ How we communicate today shapes the systems of tomorrow.
 
 **[Portfolio](https://github.com/ContinuumHQ/portfolio)** · **[Homepage](https://www.continuumhq.online)**
 
-> ⚙ [ContinuumHQ](https://www.continuumhq.online) — Market Intelligence Engine. IT labor market data. 250+ jurisdictions. Launching 01.05.2026.
-
 ---
 
 ## 🟥 > COFFEE
