@@ -1,116 +1,92 @@
-# doc_writer
+<div align="center">
 
-Automated technical documentation writer for software repositories.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:ff0000&height=180&section=header&text=%5Broot%40ContinuumHQ%20~%5D%23&fontSize=38&fontColor=ff2222&fontAlignY=40&desc=sovereign%20architect%20%7C%20open%20source%20maintainer&descAlignY=62&descSize=14&descColor=888888&animation=fadeIn" width="100%"/>
 
-Generates ISO/IEC 26514-structured Markdown from a live Git repository on every CI/CD run. No manual documentation maintenance required.
+<a href="https://github.com/ContinuumHQ">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2600&pause=700&color=FF2222&center=true&vCenter=true&multiline=false&repeat=true&width=680&height=30&lines=train+hard+%7C+fight+easy+%7C+skills+before+certs+%7C+data+before+bias" alt="typing" />
+</a>
 
----
-
-## Output
-
-| File | Description |
-|---|---|
-| `docs/TECHNICAL_DOSSIER.md` | Full dossier — overwritten each run |
-| `docs/CHANGELOG.md` | Append-only log per CI run |
-| `docs/module_status.json` | Machine-readable state snapshot |
+</div>
 
 ---
 
-## Requirements
-
-- Python 3.9+
-- Git in `PATH`
-- `tomli` (Python < 3.11 only): `pip install tomli`
-
-No other dependencies. Uses only the standard library + Git CLI.
-
----
-
-## Installation
-
-```bash
-# Place in your repository
-cp doc_writer.py docs/doc_writer.py
-
-# Optional: create config file from template
-cp doc_writer.toml.example doc_writer.toml
-# Edit doc_writer.toml — do NOT commit if it contains sensitive values
+```
+                   -`                   NAME:  dev_aginst_the_machine
+                  .o+`                  ROLE:  sovereign architect
+                 `ooo/                         Open Source Maintainer
+                `+oooo:                 -----------------------------
+               `+oooooo:                STACK: Python | SQL | Docker 
+               -+oooooo+:                      ML | Arch Linux
+             `/:-:++oooo+:              GRIT:  train hard, fight easy 
+            `/++++/+++++++:                    
+           `/++++++++++++++:            
+          `/+++ooooooooooooo/`          
+         ./ooosssso++osssssso+`         
+        .oossssso-````/ossssss+`        
+       -osssssso.      :ssssssso.
+      :osssssss/        osssso+++.      
+     /ossssssss/        +ssssooo/-       
+   `/ossssso+/:-        -:/+osssso+-
+  `+sso+:-`               `.-/+oso:
+ `++:.                         `-/+/
+ .`                               `/
 ```
 
 ---
 
-## Usage
+## 🟥 > PHILOSOPHY: Conditio Sine Qua Non
 
-```bash
-# Full run: dossier + changelog + JSON
-python docs/doc_writer.py --mode full
-
-# Append changelog entry only
-python docs/doc_writer.py --mode changelog
-
-# JSON status snapshot only
-python docs/doc_writer.py --mode status
-
-# Explicit config path
-python docs/doc_writer.py --config /path/to/doc_writer.toml
-```
+**Communication is the foundation, not a side note.**
+Machines reflect us — through our prompts, our expectations and our language.
+How we communicate today shapes the systems of tomorrow.
 
 ---
 
-## GitHub Actions Integration
+## 🟥 > SYSTEM\_LOGS
 
-Add as a post-step to any job:
-
-```yaml
-- name: Update documentation
-  if: always()
-  run: python docs/doc_writer.py --mode changelog
-```
-
-For a full dossier rebuild (e.g. monthly):
-
-```yaml
-- name: Rebuild Technical Dossier
-  run: python docs/doc_writer.py --mode full
-```
-
-In CI, the script automatically commits and pushes the updated `docs/` directory. Locally it writes the files only.
+* DATA\_ENGINEER
+* DATA\_SCIENTIST\_ML
+* DATA\_ANALYTICS
+* PYTHON
+* NETWORKING
+* CYBERSECURITY
 
 ---
 
-## Configuration
+## 🟥 > HARDWARE\_SPEC
 
-All project-specific values are read from `doc_writer.toml` in the repository root. If no config file is present, the script runs with generic defaults derived from the repository itself.
-
-See `doc_writer.toml.example` for all available keys:
-
-- `project_name`, `doc_id`, `responsible`, `contact`, `repo_url`
-- `modules` — submodules or directories to track
-- `core_files` — individual files to track with size/mtime
-- `tiers`, `phases`, `open_items` — optional structured sections
-- `disclaimer` — appended as a final section
+* **OS:** Arch Linux x86\_64
+* **Machine:** T480
+* **BEOWULF-CLUSTER** in build
 
 ---
 
-## Doc-ID Versioning
+## 🟥 > BUILD
 
-`doc_id` in `doc_writer.toml` follows the pattern:
+**[Portfolio](https://github.com/ContinuumHQ/portfolio)** · **[Homepage](https://www.continuumhq.online)**
 
-```
-DOC-YYYY-NNN-REV-X
-```
-
-Increment `REV-X` (A, B, C…) for each significant schema change. The script does not auto-increment — versioning is a deliberate decision.
+> ⚙ [ContinuumHQ](https://www.continuumhq.online) — Market Intelligence Engine. IT labor market data. 250+ jurisdictions. Launching 01.05.2026.
 
 ---
 
-## Standards
+## 🟥 > COFFEE
 
-- **ISO/IEC 26514** — Software and systems engineering: documentation
-- **ISO-8601** — Date and time format (all timestamps in UTC)
+[![LemonSqueezy](https://img.shields.io/badge/Lemon--Squeezy-black?style=for-the-badge&logo=lemonsqueezy&logoColor=red&labelColor=black&color=red)](https://continuumhq.lemonsqueezy.com/checkout/buy/3aa6dc12-4750-4eee-b866-891ccfd06bbd)
+[![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-black?style=for-the-badge&logo=github-sponsors&logoColor=red&labelColor=black&color=red)](https://github.com/sponsors/ContinuumHQ?preview=true)
 
 ---
 
-## License
+## 🟥 > CONNECT
 
-MIT License. See [LICENSE](LICENSE).
+[![Mail](https://img.shields.io/badge/Proton-black?style=for-the-badge&logo=proton&logoColor=red&labelColor=black&color=red)](mailto:continuum.hq@proton.me)
+[![GritLab](https://img.shields.io/badge/Discord-black?style=for-the-badge&logo=discord&logoColor=red&labelColor=black&color=red)](https://discord.gg/f6nTNGQn4S)
+[![Telegram](https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=telegram&logoColor=red&labelColor=black&color=red)](http://t.me/ContinuumHQ)
+[![Patreon](https://img.shields.io/badge/PATREON-black?style=for-the-badge&logo=patreon&logoColor=red&labelColor=black&color=red)](https://www.patreon.com/c/ContinuumHQ)
+[![Mastodon](https://img.shields.io/badge/MASTODON-black?style=for-the-badge&logo=mastodon&logoColor=red&labelColor=black&color=red)](https://mastodon.social/@ContinuumHQ)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)](https://www.linkedin.com/in/raffaeleconti3187)
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,50:1a0000,100:000000&height=100&section=footer&animation=fadeIn" width="100%"/>
+</div>
