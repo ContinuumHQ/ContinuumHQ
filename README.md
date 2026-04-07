@@ -7,9 +7,6 @@
 </a>
 
 </div>
-<img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" width="100%"/>
-
-
 ```
                    -`                   NAME:  dev_aginst_the_machine
                   .o+`                  ROLE:  sovereign architect
@@ -31,11 +28,6 @@
  `++:.                         `-/+/
  .`                               `/
 ```
-
-
-<img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" width="100%"/>
-
-
 ---
 
 ## 🟥 > PHILOSOPHY: Conditio Sine Qua Non
