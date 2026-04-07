@@ -9,13 +9,13 @@
 </div>
 
 ```
-                   -`                   NAME:  dev_aginst_the_machine
-                  .o+`                  ROLE:  sovereign architect
-                 `ooo/                         Open Source Maintainer
-                `+oooo:                 -----------------------------
-               `+oooooo:                STACK: Python | SQL | Docker 
-               -+oooooo+:                      ML | Arch Linux
-             `/:-:++oooo+:              GRIT:  train hard, fight easy 
+                   -`                   
+                  .o+`                  
+                 `ooo/                     
+                `+oooo:                 
+               `+oooooo:                
+               -+oooooo+:                     
+             `/:-:++oooo+:             
             `/++++/+++++++:                    
            `/++++++++++++++:            
           `/+++ooooooooooooo/`          
