@@ -7,7 +7,6 @@
 </a>
 
 </div>
----
 
 ## 🟥 > PHILOSOPHY: Conditio Sine Qua Non
 
