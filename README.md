@@ -1,69 +1,116 @@
-# [root@ContinuumHQ ~]# whoami
+# doc_writer
 
-```text
-                   -`                   NAME:  dev_aginst_the_machine
-                  .o+`                  ROLE:  sovereign architect
-                 `ooo/                         Open Source Maintainer
-                `+oooo:                 -----------------------------
-               `+oooooo:                STACK: Python | SQL | Docker 
-               -+oooooo+:                      ML | Arch Linux
-             `/:-:++oooo+:              GRIT:  train hard, fight easy 
-            `/++++/+++++++:                    
-           `/++++++++++++++:            
-          `/+++ooooooooooooo/`          
-         ./ooosssso++osssssso+`         
-        .oossssso-````/ossssss+`        
-       -osssssso.      :ssssssso.
-      :osssssss/        osssso+++.      
-     /ossssssss/        +ssssooo/-       
-   `/ossssso+/:-        -:/+osssso+-
-  `+sso+:-`               `.-/+oso:
- `++:.                         `-/+/
- .`                               `/
+Automated technical documentation writer for software repositories.
+
+Generates ISO/IEC 26514-structured Markdown from a live Git repository on every CI/CD run. No manual documentation maintenance required.
+
+---
+
+## Output
+
+| File | Description |
+|---|---|
+| `docs/TECHNICAL_DOSSIER.md` | Full dossier — overwritten each run |
+| `docs/CHANGELOG.md` | Append-only log per CI run |
+| `docs/module_status.json` | Machine-readable state snapshot |
+
+---
+
+## Requirements
+
+- Python 3.9+
+- Git in `PATH`
+- `tomli` (Python < 3.11 only): `pip install tomli`
+
+No other dependencies. Uses only the standard library + Git CLI.
+
+---
+
+## Installation
+
+```bash
+# Place in your repository
+cp doc_writer.py docs/doc_writer.py
+
+# Optional: create config file from template
+cp doc_writer.toml.example doc_writer.toml
+# Edit doc_writer.toml — do NOT commit if it contains sensitive values
 ```
 
-## 🟥 > PHILOSOPHY: Conditio Sine Qua Non
+---
 
-**Communication is the foundation, not a side note.**
-Machines reflect us—through our prompts, our expectations and our language.
-How we communicate today shapes the systems of tomorrow.
+## Usage
+
+```bash
+# Full run: dossier + changelog + JSON
+python docs/doc_writer.py --mode full
+
+# Append changelog entry only
+python docs/doc_writer.py --mode changelog
+
+# JSON status snapshot only
+python docs/doc_writer.py --mode status
+
+# Explicit config path
+python docs/doc_writer.py --config /path/to/doc_writer.toml
+```
 
 ---
 
-## 🟥 > SYSTEM_LOGS
+## GitHub Actions Integration
 
-* DATA_ENGINEER        
-* DATA_SCIENTIST_ML 
-* DATA_ANALYTICS
-* PYTHON     
-* NETWORKING    
-* CYBERSECURITY       
----
+Add as a post-step to any job:
 
-## 🟥 > HARDWARE_SPEC
+```yaml
+- name: Update documentation
+  if: always()
+  run: python docs/doc_writer.py --mode changelog
+```
 
-* **OS:** Arch Linux x86_64
-* **Machine:** T480
-* **BEOWULF-CLUSTER** in build
----
+For a full dossier rebuild (e.g. monthly):
 
-## 🟥 > BUILD
+```yaml
+- name: Rebuild Technical Dossier
+  run: python docs/doc_writer.py --mode full
+```
 
-[![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github&logoColor=red&labelColor=black&color=red)](https://github.com/ContinuumHQ/portfolio)
-[![Homepage](https://img.shields.io/badge/Homepage-black?style=for-the-badge&logo=homepageColor=red&labelColor=black&color=red)](https://continuumhq.com)
----
-
-## 🟥 > COFFEE
-
-[![LemonSqueezy](https://img.shields.io/badge/Lemon-Squeezy-black?style=for-the-badge&logo=lemon-squeezy&logoColor=red&labelColor=black&color=red)](https://continuumhq.lemonsqueezy.com/checkout/buy/3aa6dc12-4750-4eee-b866-891ccfd06bbd)
-[![Sponsor](https://img.shields.io/badge/GitHub-Sponsor-black?style=for-the-badge&logo=github-sponsor&logoColor=red&labelColor=black&color=red)](https://github.com/sponsors/ContinuumHQ?preview=true)
+In CI, the script automatically commits and pushes the updated `docs/` directory. Locally it writes the files only.
 
 ---
 
-## 🟥 > CONNECT
-[![Mail](https://img.shields.io/badge/Proton-black?style=for-the-badge&logo=proton&logoColor=red&labelColor=black&color=red)](mailto:continuum.hq@proton.me)
-[![GritLab](https://img.shields.io/badge/Discord-black?style=for-the-badge&logo=discord&logoColor=red&labelColor=black&color=red)](https://discord.gg/f6nTNGQn4S)
-[![Telegram](https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=telegram&logoColor=red&labelColor=black&color=red)](http://t.me/ContinuumHQ)
-[![Patreon](https://img.shields.io/badge/PATREON-black?style=for-the-badge&logo=patreon&logoColor=red&labelColor=black&color=red)](https://www.patreon.com/c/ContinuumHQ)
-[![Mastodon](https://img.shields.io/badge/MASTODON-black?style=for-the-badge&logo=mastodon&logoColor=red&labelColor=black&color=red)](https://mastodon.social/@ContinuumHQ)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin&logoColor=red&labelColor=black&color=red)](https://www.linkedin.com/in/raffaeleconti3187)
+## Configuration
+
+All project-specific values are read from `doc_writer.toml` in the repository root. If no config file is present, the script runs with generic defaults derived from the repository itself.
+
+See `doc_writer.toml.example` for all available keys:
+
+- `project_name`, `doc_id`, `responsible`, `contact`, `repo_url`
+- `modules` — submodules or directories to track
+- `core_files` — individual files to track with size/mtime
+- `tiers`, `phases`, `open_items` — optional structured sections
+- `disclaimer` — appended as a final section
+
+---
+
+## Doc-ID Versioning
+
+`doc_id` in `doc_writer.toml` follows the pattern:
+
+```
+DOC-YYYY-NNN-REV-X
+```
+
+Increment `REV-X` (A, B, C…) for each significant schema change. The script does not auto-increment — versioning is a deliberate decision.
+
+---
+
+## Standards
+
+- **ISO/IEC 26514** — Software and systems engineering: documentation
+- **ISO-8601** — Date and time format (all timestamps in UTC)
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
