@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:ff0000&height=180&section=header&text=%5Broot%40ContinuumHQ%20~%5D%23&fontSize=38&fontColor=ff2222&fontAlignY=40&desc=sovereign%20architect%20%7C%20open%20source%20maintainer&descAlignY=62&descSize=14&descColor=888888&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0000,100:ff0000&height=180&section=header&text=%5Broot%40Dev_Against_The_Machine%20~%5D%23&fontSize=38&fontColor=ff2222&fontAlignY=40&desc=sovereign%20architect%20%7C%20open%20source%20maintainer&descAlignY=62&descSize=14&descColor=888888&animation=fadeIn" width="100%"/>
 
 <a href="https://github.com/ContinuumHQ">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=22&duration=6000&pause=4000&color=FF2222&center=true&vCenter=true&multiline=false&repeat=true&width=680&height=30&lines=train+hard+%7C+fight+easy+%7C+skills+before+certs+%7C+data+before+bias" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=22&duration=12000&pause=8000&color=FF2222&center=true&vCenter=true&multiline=false&repeat=true&width=680&height=30&lines=train+hard+%7C+fight+easy+%7C+skills+before+certs+%7C+data+before+bias" alt="typing" />
 </a>
 
 </div>
