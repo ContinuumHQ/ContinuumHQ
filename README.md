@@ -33,9 +33,9 @@
  .`                               `/
 ```
 
----
 
 <img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" width="100%"/>
+---
 ## 🟥 > PHILOSOPHY: Conditio Sine Qua Non
 
 **Communication is the foundation, not a side note.**
