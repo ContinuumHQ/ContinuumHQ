@@ -7,6 +7,7 @@
 </a>
 
 </div>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 ---
 
